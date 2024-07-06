@@ -1,0 +1,8 @@
+{
+    "apis": [
+      { "type": "REST", "endpoint": "http://localhost:3001/fast" },
+      { "type": "REST", "endpoint": "http://localhost:3002/slow" },
+      { "type": "GraphQL", "endpoint": "http://localhost:3003/graphql" }
+    ]
+  }
+  

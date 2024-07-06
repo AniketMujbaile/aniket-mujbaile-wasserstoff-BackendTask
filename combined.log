@@ -1,0 +1,6 @@
+{"level":"info","message":{"duration":9,"method":"POST","status":500,"url":"/api?strategy=fifo&type=REST"}}
+{"level":"info","message":{"duration":0,"method":"POST","status":500,"url":"/api?strategy=fifo&type=REST"}}
+{"level":"info","message":{"duration":1,"method":"POST","status":500,"url":"/api?strategy=fifo&type=REST"}}
+{"level":"info","message":{"duration":8,"method":"POST","status":200,"url":"/api?strategy=fifo&type=REST"}}
+{"level":"info","message":{"duration":3,"method":"POST","status":200,"url":"/api?strategy=priority&type=REST&priority=1"}}
+{"level":"info","message":{"duration":2,"method":"POST","status":200,"url":"/api?strategy=round-robin&type=REST"}}

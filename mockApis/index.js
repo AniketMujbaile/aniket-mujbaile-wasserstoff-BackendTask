@@ -1,0 +1,2 @@
+require('./fastApi');
+require('./slowApi');
