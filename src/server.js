@@ -15,6 +15,10 @@ const fifoQueue = new FIFOQueue();
 const priorityQueue = new PriorityQueue();
 const roundRobinQueue = new RoundRobinQueue();
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Intelligent Load Balancer');
+});
+
 app.post('/api', (req, res) => {
   routeRequest(req, res, { fifoQueue, priorityQueue, roundRobinQueue });
 });
